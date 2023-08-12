@@ -74,9 +74,9 @@ fontLoader.load(
         const text2 = new THREE.Mesh(textGeometry2, material)
         scene.add(text2)
 
-        text2.position.y = - 0.65
+        text2.position.y = -  0.65
 
-        gui.add(text2.position, 'y').min(-1).max(0).step(0.01)
+        // gui.add(text2.position, 'y').min(-1).max(0).step(0.01)
 
 
         // Donuts
