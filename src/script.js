@@ -11,6 +11,7 @@ import * as dat from 'lil-gui'
 const gui = new dat.GUI()
 
 // Canvas
+
 const canvas = document.querySelector('canvas.webgl')
 
 // Scene
